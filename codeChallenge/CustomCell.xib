@@ -1,11 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="14109" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
-    <device id="retina4_7" orientation="portrait">
-        <adaptation id="fullscreen"/>
-    </device>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14088"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <objects>
@@ -14,31 +12,24 @@
             <rect key="frame" x="0.0" y="0.0" width="394" height="98"/>
             <autoresizingMask key="autoresizingMask"/>
             <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" preservesSuperviewLayoutMargins="YES" insetsLayoutMarginsFromSafeArea="NO" tableViewCell="xXk-XU-Ouk" id="ull-y1-J8D">
-                <rect key="frame" x="0.0" y="0.0" width="394" height="97.5"/>
+                <rect key="frame" x="0.0" y="0.0" width="394" height="98"/>
                 <autoresizingMask key="autoresizingMask" flexibleMinX="YES" flexibleMaxX="YES" flexibleMinY="YES" flexibleMaxY="YES"/>
                 <subviews>
-                    <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" placeholderIntrinsicWidth="86" placeholderIntrinsicHeight="77" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="5Yb-hG-TU5">
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" placeholderIntrinsicWidth="86" placeholderIntrinsicHeight="77" image="defaultPhoto" translatesAutoresizingMaskIntoConstraints="NO" id="5Yb-hG-TU5">
                         <rect key="frame" x="12" y="10" width="86" height="77"/>
                         <constraints>
                             <constraint firstAttribute="height" constant="77" id="IIP-ew-tY6"/>
                             <constraint firstAttribute="width" constant="86" id="Jgq-rn-hUf"/>
                         </constraints>
                     </imageView>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Label" textAlignment="natural" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5OU-qd-jNG">
-                        <rect key="frame" x="347" y="11" width="42" height="22"/>
-                        <constraints>
-                            <constraint firstAttribute="height" constant="22" id="lfO-fw-V6S"/>
-                        </constraints>
-                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" insetsLayoutMarginsFromSafeArea="NO" text="Label" lineBreakMode="wordWrap" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="5OU-qd-jNG">
+                        <rect key="frame" x="106" y="10" width="268" height="19.5"/>
+                        <fontDescription key="fontDescription" type="system" pointSize="16"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
                     </label>
-                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" text="sdasdqdfwefwefwefwefwefwefwefwefwefknn wefwefwefwefwef  dfbsdfbasdfgasf" textAlignment="natural" lineBreakMode="headTruncation" baselineAdjustment="alignBaselines" minimumScaleFactor="0.25" translatesAutoresizingMaskIntoConstraints="NO" id="e9u-Pw-jR3" userLabel="Image Subtitle Cell">
-                        <rect key="frame" x="108" y="63" width="281" height="24"/>
-                        <constraints>
-                            <constraint firstAttribute="width" constant="281" id="9ic-Rj-rfN"/>
-                            <constraint firstAttribute="height" constant="24" id="inu-YW-F9h"/>
-                        </constraints>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalCompressionResistancePriority="250" verticalCompressionResistancePriority="250" text="sdasdqdfwefwefwefwefwefwefwefwefwefknn wefwefwefwefwef  dfbsdfbasdfgasf" lineBreakMode="headTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="e9u-Pw-jR3" userLabel="Image Subtitle Cell">
+                        <rect key="frame" x="108" y="37.5" width="266" height="29"/>
                         <fontDescription key="fontDescription" type="system" pointSize="12"/>
                         <nil key="textColor"/>
                         <nil key="highlightedColor"/>
@@ -46,12 +37,15 @@
                 </subviews>
                 <color key="backgroundColor" white="0.66666666669999997" alpha="1" colorSpace="calibratedWhite"/>
                 <constraints>
-                    <constraint firstAttribute="trailing" secondItem="5OU-qd-jNG" secondAttribute="trailing" constant="5" id="Haq-w4-puA"/>
-                    <constraint firstAttribute="bottom" secondItem="e9u-Pw-jR3" secondAttribute="bottom" constant="11" id="U2D-wV-GGS"/>
-                    <constraint firstAttribute="trailing" secondItem="e9u-Pw-jR3" secondAttribute="trailing" constant="5" id="Y70-EI-1H8"/>
-                    <constraint firstItem="5OU-qd-jNG" firstAttribute="top" secondItem="ull-y1-J8D" secondAttribute="top" constant="11" id="ZW2-fL-Lzb"/>
+                    <constraint firstAttribute="trailing" secondItem="5OU-qd-jNG" secondAttribute="trailing" constant="20" symbolic="YES" id="Haq-w4-puA"/>
+                    <constraint firstItem="e9u-Pw-jR3" firstAttribute="top" secondItem="5OU-qd-jNG" secondAttribute="bottom" constant="8" symbolic="YES" id="Lfv-Tw-6Eq"/>
+                    <constraint firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="5Yb-hG-TU5" secondAttribute="bottom" constant="20" symbolic="YES" id="NbT-Il-p4X"/>
+                    <constraint firstAttribute="bottom" secondItem="e9u-Pw-jR3" secondAttribute="bottom" constant="20" symbolic="YES" id="U2D-wV-GGS"/>
                     <constraint firstItem="5Yb-hG-TU5" firstAttribute="top" secondItem="ull-y1-J8D" secondAttribute="top" constant="10" id="f71-SX-q9g"/>
+                    <constraint firstItem="5OU-qd-jNG" firstAttribute="leading" secondItem="5Yb-hG-TU5" secondAttribute="trailing" constant="8" symbolic="YES" id="iLi-vT-CUW"/>
+                    <constraint firstAttribute="trailing" secondItem="e9u-Pw-jR3" secondAttribute="trailing" constant="20" symbolic="YES" id="n5I-Lg-P0B"/>
                     <constraint firstItem="e9u-Pw-jR3" firstAttribute="leading" secondItem="5Yb-hG-TU5" secondAttribute="trailing" constant="10" id="pkb-l4-VJh"/>
+                    <constraint firstItem="5OU-qd-jNG" firstAttribute="top" secondItem="5Yb-hG-TU5" secondAttribute="top" id="rXd-pB-D1R"/>
                     <constraint firstItem="5Yb-hG-TU5" firstAttribute="leading" secondItem="ull-y1-J8D" secondAttribute="leading" constant="12" id="y48-Zr-eGW"/>
                 </constraints>
             </tableViewCellContentView>
@@ -61,6 +55,7 @@
                 <outlet property="imageSubtitleCell" destination="e9u-Pw-jR3" id="Nj3-WB-E2r"/>
                 <outlet property="imageTitleCell" destination="5OU-qd-jNG" id="cOw-uQ-U5f"/>
             </connections>
+            <point key="canvasLocation" x="139" y="140"/>
         </tableViewCell>
         <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
     </objects>
@@ -68,3 +63,4 @@
         <image name="defaultPhoto" width="225" height="225"/>
     </resources>
 </document>
+
