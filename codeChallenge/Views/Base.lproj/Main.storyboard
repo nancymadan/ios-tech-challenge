@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="20037" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="CIg-dQ-X3l">
+    <device id="retina4_7" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="20020"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="RcV-IK-Nj3">
+            <objects>
+                <navigationController id="CIg-dQ-X3l" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" id="XF3-vh-6EZ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <textAttributes key="titleTextAttributes">
+                            <fontDescription key="fontDescription" type="boldSystem" pointSize="18"/>
+                            <color key="textColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        </textAttributes>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="dMw-tS-P0T" kind="relationship" relationship="rootViewController" id="eEe-UA-10u"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="ElQ-xF-IhU" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-731" y="-16"/>
+        </scene>
+        <!--Product Listing-->
+        <scene sceneID="nw0-K6-z04">
+            <objects>
+                <tableViewController title="Product Listing" id="dMw-tS-P0T" customClass="ViewController" sceneMemberID="viewController">
+                    <tableView key="view" clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" dataMode="prototypes" style="plain" separatorStyle="default" rowHeight="-1" estimatedRowHeight="-1" sectionHeaderHeight="28" sectionFooterHeight="28" id="zdr-J3-qGg">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <view key="tableHeaderView" contentMode="scaleToFill" id="aGg-Sp-IWa">
+                            <rect key="frame" x="0.0" y="0.0" width="375" height="54"/>
+                            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                            <subviews>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sort By Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hu-C2-KbW">
+                                    <rect key="frame" x="80.5" y="18" width="86.5" height="18"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="15"/>
+                                    <nil key="textColor"/>
+                                    <nil key="highlightedColor"/>
+                                </label>
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" preferredStyle="sliding" translatesAutoresizingMaskIntoConstraints="NO" id="fSl-0v-43G">
+                                    <rect key="frame" x="20" y="11.5" width="51" height="31"/>
+                                    <connections>
+                                        <action selector="sortBydateAction:" destination="dMw-tS-P0T" eventType="valueChanged" id="QxD-Cj-rBF"/>
+                                    </connections>
+                                </switch>
+                            </subviews>
+                            <viewLayoutGuide key="safeArea" id="X4W-qp-aAd"/>
+                            <constraints>
+                                <constraint firstItem="X4W-qp-aAd" firstAttribute="trailing" relation="greaterThanOrEqual" secondItem="4hu-C2-KbW" secondAttribute="trailing" constant="20" id="46r-DV-XEc"/>
+                                <constraint firstItem="4hu-C2-KbW" firstAttribute="leading" secondItem="fSl-0v-43G" secondAttribute="trailing" multiplier="1.05" constant="8" symbolic="YES" id="MJB-gi-ikK"/>
+                                <constraint firstItem="fSl-0v-43G" firstAttribute="centerY" secondItem="4hu-C2-KbW" secondAttribute="centerY" id="MyV-b6-Jfd"/>
+                                <constraint firstItem="fSl-0v-43G" firstAttribute="leading" secondItem="X4W-qp-aAd" secondAttribute="leading" constant="20" id="h2x-O3-Au3"/>
+                                <constraint firstItem="4hu-C2-KbW" firstAttribute="centerY" secondItem="X4W-qp-aAd" secondAttribute="centerY" id="szh-D9-VLj"/>
+                            </constraints>
+                        </view>
+                        <connections>
+                            <outlet property="dataSource" destination="dMw-tS-P0T" id="hmv-yb-s1f"/>
+                            <outlet property="delegate" destination="dMw-tS-P0T" id="4lW-YT-UTd"/>
+                        </connections>
+                    </tableView>
+                    <navigationItem key="navigationItem" id="iYH-JE-9Rk"/>
+                    <connections>
+                        <outlet property="switchDate" destination="fSl-0v-43G" id="1gn-XX-NVf"/>
+                    </connections>
+                </tableViewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CXG-7z-5OP" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="837.60000000000002" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+</document>

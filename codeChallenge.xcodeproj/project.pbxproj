@@ -15,7 +15,30 @@
 		3E15BBF2208754FE0029597E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15BBF1208754FE0029597E /* main.m */; };
 		3E15BBFA208774B10029597E /* CustomCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 3E15BBF9208774B10029597E /* CustomCell.m */; };
 		3E15BBFC20879B4B0029597E /* CustomCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 3E15BBFB20879B4B0029597E /* CustomCell.xib */; };
+		B96546F328342CD80022BF54 /* PhotoDetailController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96546F128342CD80022BF54 /* PhotoDetailController.swift */; };
+		B96546F428342CD80022BF54 /* PhotoDetailController.xib in Resources */ = {isa = PBXBuildFile; fileRef = B96546F228342CD80022BF54 /* PhotoDetailController.xib */; };
+		B96546F7283431FA0022BF54 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = B96546F6283431FA0022BF54 /* StringExtensions.swift */; };
+		B9D897C72832F09C00EB9D07 /* PhotoViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D897C62832F09C00EB9D07 /* PhotoViewModel.swift */; };
+		B9D897CA2832F0D600EB9D07 /* PhotoModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D897C92832F0D600EB9D07 /* PhotoModel.swift */; };
+		B9D897CD2832F27000EB9D07 /* PhotosService.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D897CC2832F27000EB9D07 /* PhotosService.swift */; };
+		B9D897D02832F2C000EB9D07 /* ApiConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D897CF2832F2C000EB9D07 /* ApiConstants.swift */; };
+		B9D897D32832F33D00EB9D07 /* NetworkLayer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B9D897D22832F33D00EB9D07 /* NetworkLayer.framework */; };
+		B9D897D42832F33D00EB9D07 /* NetworkLayer.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = B9D897D22832F33D00EB9D07 /* NetworkLayer.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B9D897D52832F33D00EB9D07 /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+				B9D897D42832F33D00EB9D07 /* NetworkLayer.framework in Embed Frameworks */,
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		3E15BBDF208754FE0029597E /* codeChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = codeChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -31,6 +54,15 @@
 		3E15BBF8208774B10029597E /* CustomCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CustomCell.h; sourceTree = "<group>"; };
 		3E15BBF9208774B10029597E /* CustomCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CustomCell.m; sourceTree = "<group>"; };
 		3E15BBFB20879B4B0029597E /* CustomCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CustomCell.xib; sourceTree = "<group>"; };
+		B96546F128342CD80022BF54 /* PhotoDetailController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoDetailController.swift; sourceTree = "<group>"; };
+		B96546F228342CD80022BF54 /* PhotoDetailController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = PhotoDetailController.xib; sourceTree = "<group>"; };
+		B96546F6283431FA0022BF54 /* StringExtensions.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		B9D897C52832F09C00EB9D07 /* codeChallenge-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "codeChallenge-Bridging-Header.h"; sourceTree = "<group>"; };
+		B9D897C62832F09C00EB9D07 /* PhotoViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoViewModel.swift; sourceTree = "<group>"; };
+		B9D897C92832F0D600EB9D07 /* PhotoModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotoModel.swift; sourceTree = "<group>"; };
+		B9D897CC2832F27000EB9D07 /* PhotosService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PhotosService.swift; sourceTree = "<group>"; };
+		B9D897CF2832F2C000EB9D07 /* ApiConstants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApiConstants.swift; sourceTree = "<group>"; };
+		B9D897D22832F33D00EB9D07 /* NetworkLayer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = NetworkLayer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -38,6 +70,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D897D32832F33D00EB9D07 /* NetworkLayer.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -49,6 +82,7 @@
 			children = (
 				3E15BBE1208754FE0029597E /* codeChallenge */,
 				3E15BBE0208754FE0029597E /* Products */,
+				B9D897D12832F33D00EB9D07 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -63,20 +97,132 @@
 		3E15BBE1208754FE0029597E /* codeChallenge */ = {
 			isa = PBXGroup;
 			children = (
-				3E15BBE2208754FE0029597E /* AppDelegate.h */,
-				3E15BBE3208754FE0029597E /* AppDelegate.m */,
-				3E15BBE5208754FE0029597E /* ViewController.h */,
-				3E15BBE6208754FE0029597E /* ViewController.m */,
-				3E15BBF8208774B10029597E /* CustomCell.h */,
-				3E15BBF9208774B10029597E /* CustomCell.m */,
-				3E15BBFB20879B4B0029597E /* CustomCell.xib */,
-				3E15BBE8208754FE0029597E /* Main.storyboard */,
+				B96546F5283431E20022BF54 /* Helpers */,
+				B96546EF28342C9A0022BF54 /* PhotoDetail */,
+				B9D897CE2832F2B300EB9D07 /* Utils */,
+				B9D897C52832F09C00EB9D07 /* codeChallenge-Bridging-Header.h */,
+				B9EAA41C2832CC4A009750E3 /* PhotosListing */,
+				B9EAA41B2832CC1F009750E3 /* Views */,
+				B9EAA41A2832CB9F009750E3 /* AppDelegate */,
 				3E15BBEB208754FE0029597E /* Assets.xcassets */,
 				3E15BBED208754FE0029597E /* LaunchScreen.storyboard */,
 				3E15BBF0208754FE0029597E /* Info.plist */,
 				3E15BBF1208754FE0029597E /* main.m */,
 			);
 			path = codeChallenge;
+			sourceTree = "<group>";
+		};
+		B96546EF28342C9A0022BF54 /* PhotoDetail */ = {
+			isa = PBXGroup;
+			children = (
+				B96546F028342CBF0022BF54 /* PhotoDetailController */,
+			);
+			path = PhotoDetail;
+			sourceTree = "<group>";
+		};
+		B96546F028342CBF0022BF54 /* PhotoDetailController */ = {
+			isa = PBXGroup;
+			children = (
+				B96546F128342CD80022BF54 /* PhotoDetailController.swift */,
+				B96546F228342CD80022BF54 /* PhotoDetailController.xib */,
+			);
+			path = PhotoDetailController;
+			sourceTree = "<group>";
+		};
+		B96546F5283431E20022BF54 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				B96546F6283431FA0022BF54 /* StringExtensions.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		B9D897C42832F07600EB9D07 /* PhotoListingViewModel */ = {
+			isa = PBXGroup;
+			children = (
+				B9D897C62832F09C00EB9D07 /* PhotoViewModel.swift */,
+			);
+			path = PhotoListingViewModel;
+			sourceTree = "<group>";
+		};
+		B9D897C82832F0B900EB9D07 /* PhotoModel */ = {
+			isa = PBXGroup;
+			children = (
+				B9D897C92832F0D600EB9D07 /* PhotoModel.swift */,
+			);
+			path = PhotoModel;
+			sourceTree = "<group>";
+		};
+		B9D897CB2832F25F00EB9D07 /* PhotosService */ = {
+			isa = PBXGroup;
+			children = (
+				B9D897CC2832F27000EB9D07 /* PhotosService.swift */,
+			);
+			path = PhotosService;
+			sourceTree = "<group>";
+		};
+		B9D897CE2832F2B300EB9D07 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				B9D897CF2832F2C000EB9D07 /* ApiConstants.swift */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		B9D897D12832F33D00EB9D07 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B9D897D22832F33D00EB9D07 /* NetworkLayer.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B9EAA41A2832CB9F009750E3 /* AppDelegate */ = {
+			isa = PBXGroup;
+			children = (
+				3E15BBE2208754FE0029597E /* AppDelegate.h */,
+				3E15BBE3208754FE0029597E /* AppDelegate.m */,
+			);
+			path = AppDelegate;
+			sourceTree = "<group>";
+		};
+		B9EAA41B2832CC1F009750E3 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				3E15BBE8208754FE0029597E /* Main.storyboard */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B9EAA41C2832CC4A009750E3 /* PhotosListing */ = {
+			isa = PBXGroup;
+			children = (
+				B9D897CB2832F25F00EB9D07 /* PhotosService */,
+				B9D897C82832F0B900EB9D07 /* PhotoModel */,
+				B9D897C42832F07600EB9D07 /* PhotoListingViewModel */,
+				B9EAA41E2832CCB6009750E3 /* PhotosCustomCell */,
+				B9EAA41D2832CC91009750E3 /* PhotosListingController */,
+			);
+			path = PhotosListing;
+			sourceTree = "<group>";
+		};
+		B9EAA41D2832CC91009750E3 /* PhotosListingController */ = {
+			isa = PBXGroup;
+			children = (
+				3E15BBE5208754FE0029597E /* ViewController.h */,
+				3E15BBE6208754FE0029597E /* ViewController.m */,
+			);
+			path = PhotosListingController;
+			sourceTree = "<group>";
+		};
+		B9EAA41E2832CCB6009750E3 /* PhotosCustomCell */ = {
+			isa = PBXGroup;
+			children = (
+				3E15BBF8208774B10029597E /* CustomCell.h */,
+				3E15BBF9208774B10029597E /* CustomCell.m */,
+				3E15BBFB20879B4B0029597E /* CustomCell.xib */,
+			);
+			path = PhotosCustomCell;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -89,6 +235,7 @@
 				3E15BBDB208754FE0029597E /* Sources */,
 				3E15BBDC208754FE0029597E /* Frameworks */,
 				3E15BBDD208754FE0029597E /* Resources */,
+				B9D897D52832F33D00EB9D07 /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
@@ -110,6 +257,7 @@
 				TargetAttributes = {
 					3E15BBDE208754FE0029597E = {
 						CreatedOnToolsVersion = 9.3;
+						LastSwiftMigration = 1330;
 					};
 				};
 			};
@@ -136,6 +284,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B96546F428342CD80022BF54 /* PhotoDetailController.xib in Resources */,
 				3E15BBEF208754FE0029597E /* LaunchScreen.storyboard in Resources */,
 				3E15BBEC208754FE0029597E /* Assets.xcassets in Resources */,
 				3E15BBFC20879B4B0029597E /* CustomCell.xib in Resources */,
@@ -150,10 +299,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B9D897CA2832F0D600EB9D07 /* PhotoModel.swift in Sources */,
+				B96546F328342CD80022BF54 /* PhotoDetailController.swift in Sources */,
+				B96546F7283431FA0022BF54 /* StringExtensions.swift in Sources */,
 				3E15BBE7208754FE0029597E /* ViewController.m in Sources */,
 				3E15BBF2208754FE0029597E /* main.m in Sources */,
 				3E15BBFA208774B10029597E /* CustomCell.m in Sources */,
+				B9D897D02832F2C000EB9D07 /* ApiConstants.swift in Sources */,
+				B9D897CD2832F27000EB9D07 /* PhotosService.swift in Sources */,
 				3E15BBE4208754FE0029597E /* AppDelegate.m in Sources */,
+				B9D897C72832F09C00EB9D07 /* PhotoViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,6 +448,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56ETNADXPZ;
 				INFOPLIST_FILE = codeChallenge/Info.plist;
@@ -302,6 +458,9 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanosuarez.codeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "codeChallenge/codeChallenge-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
@@ -310,6 +469,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 56ETNADXPZ;
 				INFOPLIST_FILE = codeChallenge/Info.plist;
@@ -319,6 +479,8 @@
 				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.nanosuarez.codeChallenge;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "codeChallenge/codeChallenge-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
