@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "08B3C6EA-CC45-45FF-A527-946D1F79CA86"
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F8509FB1-1D42-4C81-A4EC-83B0628E7D22"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "codeChallengeUITests/codeChallengeUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "testDateSwitch()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "F8509FB1-1D42-4C81-A4EC-83B0628E7D22 - 50ae61811d7102db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "codeChallengeUITests.codeChallengeUITests.testDateSwitch() throws -&gt; ()"
+                  moduleName = "codeChallengeUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nancy/Downloads/challenge/ios-tech-challenge/codeChallengeUITests/codeChallengeUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "16">
+               </Location>
+               <Location
+                  uuid = "F8509FB1-1D42-4C81-A4EC-83B0628E7D22 - 50ae61811d7102b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "codeChallengeUITests.codeChallengeUITests.testDateSwitch() throws -&gt; ()"
+                  moduleName = "codeChallengeUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nancy/Downloads/challenge/ios-tech-challenge/codeChallengeUITests/codeChallengeUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "89">
+               </Location>
+               <Location
+                  uuid = "F8509FB1-1D42-4C81-A4EC-83B0628E7D22 - 50ae61811d7102b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "codeChallengeUITests.codeChallengeUITests.testDateSwitch() throws -&gt; ()"
+                  moduleName = "codeChallengeUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nancy/Downloads/challenge/ios-tech-challenge/codeChallengeUITests/codeChallengeUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "130">
+               </Location>
+               <Location
+                  uuid = "F8509FB1-1D42-4C81-A4EC-83B0628E7D22 - 50ae61811d7102b8"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "codeChallengeUITests.codeChallengeUITests.testDateSwitch() throws -&gt; ()"
+                  moduleName = "codeChallengeUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nancy/Downloads/challenge/ios-tech-challenge/codeChallengeUITests/codeChallengeUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "25"
+                  endingLineNumber = "25"
+                  offsetFromSymbolStart = "114">
+               </Location>
+               <Location
+                  uuid = "F8509FB1-1D42-4C81-A4EC-83B0628E7D22 - 50ae61811d7102db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "codeChallengeUITests.codeChallengeUITests.testDateSwitch() throws -&gt; ()"
+                  moduleName = "codeChallengeUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nancy/Downloads/challenge/ios-tech-challenge/codeChallengeUITests/codeChallengeUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "111">
+               </Location>
+               <Location
+                  uuid = "F8509FB1-1D42-4C81-A4EC-83B0628E7D22 - 50ae61811d7102db"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "codeChallengeUITests.codeChallengeUITests.testDateSwitch() throws -&gt; ()"
+                  moduleName = "codeChallengeUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nancy/Downloads/challenge/ios-tech-challenge/codeChallengeUITests/codeChallengeUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "24"
+                  endingLineNumber = "24"
+                  offsetFromSymbolStart = "114">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "FB218E6B-B28F-4E57-BC3D-D97BF32E6FC3"
+            shouldBeEnabled = "Yes"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "codeChallengeUITests/codeChallengeUITests.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "testDateSwitch()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "FB218E6B-B28F-4E57-BC3D-D97BF32E6FC3 - 50ae61811d713d04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "codeChallengeUITests.codeChallengeUITests.testDateSwitch() throws -&gt; ()"
+                  moduleName = "codeChallengeUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nancy/Downloads/challenge/ios-tech-challenge/codeChallengeUITests/codeChallengeUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1110">
+               </Location>
+               <Location
+                  uuid = "FB218E6B-B28F-4E57-BC3D-D97BF32E6FC3 - 50ae61811d713d04"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "codeChallengeUITests.codeChallengeUITests.testDateSwitch() throws -&gt; ()"
+                  moduleName = "codeChallengeUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nancy/Downloads/challenge/ios-tech-challenge/codeChallengeUITests/codeChallengeUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "29"
+                  endingLineNumber = "29"
+                  offsetFromSymbolStart = "1171">
+               </Location>
+               <Location
+                  uuid = "FB218E6B-B28F-4E57-BC3D-D97BF32E6FC3 - 50ae61811d713de5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "codeChallengeUITests.codeChallengeUITests.testDateSwitch() throws -&gt; ()"
+                  moduleName = "codeChallengeUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nancy/Downloads/challenge/ios-tech-challenge/codeChallengeUITests/codeChallengeUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1431">
+               </Location>
+               <Location
+                  uuid = "FB218E6B-B28F-4E57-BC3D-D97BF32E6FC3 - 50ae61811d713de5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "codeChallengeUITests.codeChallengeUITests.testDateSwitch() throws -&gt; ()"
+                  moduleName = "codeChallengeUITests"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nancy/Downloads/challenge/ios-tech-challenge/codeChallengeUITests/codeChallengeUITests.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "30"
+                  endingLineNumber = "30"
+                  offsetFromSymbolStart = "1459">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DE54E9B9-4E95-46A8-9F84-28BEB4666BD0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "../../../Documents/NetworkLayer/NetworkLayer/UrlSessionStub.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "init(stubbedData:stubbedResponse:stubbedError:completionHandler:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DE54E9B9-4E95-46A8-9F84-28BEB4666BD0 - be70ebc247462b72"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkLayer.URLSessionDataTaskStub.__allocating_init(stubbedData: Swift.Optional&lt;Foundation.Data&gt;, stubbedResponse: Swift.Optional&lt;__C.NSURLResponse&gt;, stubbedError: Swift.Optional&lt;Swift.Error&gt;, completionHandler: Swift.Optional&lt;(Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; NetworkLayer.URLSessionDataTaskStub"
+                  moduleName = "NetworkLayer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nancy/Documents/NetworkLayer/NetworkLayer/UrlSessionStub.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "0"
+                  endingLineNumber = "0"
+                  offsetFromSymbolStart = "45">
+               </Location>
+               <Location
+                  uuid = "DE54E9B9-4E95-46A8-9F84-28BEB4666BD0 - a47c90d5214b8b8a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "NetworkLayer.URLSessionDataTaskStub.init(stubbedData: Swift.Optional&lt;Foundation.Data&gt;, stubbedResponse: Swift.Optional&lt;__C.NSURLResponse&gt;, stubbedError: Swift.Optional&lt;Swift.Error&gt;, completionHandler: Swift.Optional&lt;(Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; ()&gt;) -&gt; NetworkLayer.URLSessionDataTaskStub"
+                  moduleName = "NetworkLayer"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/nancy/Documents/NetworkLayer/NetworkLayer/UrlSessionStub.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "45"
+                  endingLineNumber = "45"
+                  offsetFromSymbolStart = "174">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
