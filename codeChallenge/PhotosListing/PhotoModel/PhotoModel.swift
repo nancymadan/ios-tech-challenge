@@ -22,24 +22,15 @@ struct PhotosModel: Codable {
 
  // MARK: - Photo
  struct Photo: Codable {
-     let id, owner, secret, server: String?
-     let farm: Int?
      let title: String?
-     let ispublic, isfriend, isfamily: Int?
      let description: Description?
      let datetaken: String?
-     let datetakengranularity: Int?
-     let datetakenunknown, tags: String?
      let urlT: String?
-     let heightT, widthT: Int?
      
      enum CodingKeys: String, CodingKey {
-         case id, owner, secret, server, title, datetaken, datetakenunknown, tags
-         case farm, ispublic, isfriend, isfamily, datetakengranularity
+         case  title, datetaken
          case description
          case urlT = "url_t"
-         case heightT = "height_t"
-         case widthT = "width_t"
 
      }
 }

@@ -40,16 +40,17 @@
                             <rect key="frame" x="0.0" y="0.0" width="375" height="54"/>
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
-                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sort By Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hu-C2-KbW">
-                                    <rect key="frame" x="80.5" y="18" width="86.5" height="18"/>
+                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sort by latest Date" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4hu-C2-KbW">
+                                    <rect key="frame" x="80.5" y="18" width="127.5" height="18"/>
                                     <fontDescription key="fontDescription" type="system" pointSize="15"/>
                                     <nil key="textColor"/>
                                     <nil key="highlightedColor"/>
                                 </label>
-                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" preferredStyle="sliding" translatesAutoresizingMaskIntoConstraints="NO" id="fSl-0v-43G">
+                                <switch opaque="NO" contentMode="scaleToFill" horizontalHuggingPriority="750" verticalHuggingPriority="750" contentHorizontalAlignment="center" contentVerticalAlignment="center" on="YES" title="switchDate" preferredStyle="sliding" translatesAutoresizingMaskIntoConstraints="NO" id="fSl-0v-43G">
                                     <rect key="frame" x="20" y="11.5" width="51" height="31"/>
+                                    <accessibility key="accessibilityConfiguration" identifier="switchDate"/>
                                     <connections>
-                                        <action selector="sortBydateAction:" destination="dMw-tS-P0T" eventType="valueChanged" id="QxD-Cj-rBF"/>
+                                        <action selector="sortBydateAction:" destination="dMw-tS-P0T" eventType="touchUpInside" id="LbS-ba-lYB"/>
                                     </connections>
                                 </switch>
                             </subviews>
@@ -69,6 +70,7 @@
                     </tableView>
                     <navigationItem key="navigationItem" id="iYH-JE-9Rk"/>
                     <connections>
+                        <outlet property="lblLatestFirst" destination="4hu-C2-KbW" id="xpP-Zk-JYi"/>
                         <outlet property="switchDate" destination="fSl-0v-43G" id="1gn-XX-NVf"/>
                     </connections>
                 </tableViewController>

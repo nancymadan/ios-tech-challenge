@@ -11,6 +11,7 @@
 #import <codeChallenge-swift.h>
 
 @interface ViewController ()<UITableViewDataSource, UITableViewDelegate>
+@property (weak, nonatomic) IBOutlet UILabel *lblLatestFirst;
 
 @property (weak, nonatomic) IBOutlet UISwitch *switchDate;
 @property (nonatomic) PhotoListingViewModel *viewModel;
@@ -64,6 +65,7 @@
 
 - (IBAction)sortBydateAction:(id)sender {
     [self.viewModel sortBydateWithLatestFirst: self.switchDate.isOn];
+    self.lblLatestFirst.text = self.switchDate.isOn ? @"Sort by latest Date" : @"Sort by oldest Date";
     [self.tableView reloadData];
     
 }

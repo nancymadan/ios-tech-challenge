@@ -13,7 +13,8 @@ class PhotoListingViewModel: NSObject {
     
     @objc
     var photos: NSArray = []
-    
+    var apiTaskLoader = ApiLoader(urlSession: URLSession.shared, networkMonitor: NetworkMonitor.shared)
+
     @objc
     func getAllPhotosList(completion: @escaping (Bool)->()) {
         let api = PhotosService()
@@ -21,7 +22,6 @@ class PhotoListingViewModel: NSObject {
             return
         }
         // api loader
-        let apiTaskLoader = ApiLoader(networkMonitor: NetworkMonitor.shared)
         apiTaskLoader.loadApiRequest(requestData: request, type: PhotosModel.self) { [weak self] result, error in
             if let result = result,
                let self = self {
@@ -53,6 +53,7 @@ class PhotosViewModel : NSObject {
     @objc
     var imageData: Data?
     let imageCache: NSCache<AnyObject, AnyObject>?
+    let apiTaskLoader = ApiLoader(urlSession: URLSession.shared, networkMonitor: NetworkMonitor.shared)
 
 
     init(model: Photo) {
@@ -80,7 +81,6 @@ class PhotosViewModel : NSObject {
              return
          }
          // api loader
-         let apiTaskLoader = ApiLoader(networkMonitor: NetworkMonitor.shared)
          apiTaskLoader.loadApiRequest(requestData: request, type: Data.self) {[weak self] result, error in
              if let result = result,
                 let self = self {
